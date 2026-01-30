@@ -1,9 +1,9 @@
+import os
 from binance.client import Client
 
 # ⚠️ Yahan Binance Futures TESTNET ki keys daalo
-API_KEY = "lRL6szV3bvYPMp0nkRwBd0Mho4c0wDdPSW0NSsHeLRD0o4hK6ySrBeDSgDDBaDk8"
-API_SECRET = "PBgg457RyuPnkngeFRgRk1c335gRCWpS3TmyAiLsVmWq1zGZwu5o5fdbo58K6zAa"
-
+API_KEY = os.getenv("BINANCE_API_KEY")
+API_SECRET =  os.getenv("BINANCE_API_SECRET")
 def get_client():
     """
     Binance Futures Testnet client return karta hai
