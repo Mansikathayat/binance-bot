@@ -105,17 +105,19 @@ python cli.py BTCUSDT SELL LIMIT 0.001 --price 50000
 
 ===== ORDER REQUEST =====
 Symbol   : BTCUSDT
-Side     : BUY
-Type     : MARKET
-Quantity : 0.001
+Side     : SELL
+Type     : LIMIT
+Quantity : 0.002
+Price    : 65000
 
 ===== ORDER RESPONSE =====
-Order ID      : 12345678
-Status        : FILLED
-Executed Qty  : 0.001
-Avg Price     : 43000
+Order ID      : 12235235167
+Status        : NEW
+Executed Qty  : 0.000
+Avg Price     : 0.00
 
 Order placed successfully
+
 
 ---
 
