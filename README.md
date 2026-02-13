@@ -49,7 +49,7 @@ project/
 
 ### 2. Clone the Repository
 
-git clone https://github.com/your-username/binance-trading-bot.git
+git clone https://github.com/Mansikathayat/binance-bot
 cd binance-trading-bot
 
 ---
